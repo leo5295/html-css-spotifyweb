@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.logo{
+    width: 80%;
+    margin-bottom: 8px;
+}
+
+/*Spotify logo*/
+
+nav{
+    background-color: black;
+    height: 100vh;
+    max-width: 160px;
+    padding: 10px;
+    color: rgba(255,255,255, 1);
+    position: relative;
+}
+
+.icons{
+    margin-bottom: 20px;
+}
+
+.icons > ul{
+    line-height: 1.5;
+}
+
+.fa-bars{
+    transform: rotate(90deg);
+}
+
+.playlist > h1{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.new-playlist{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+.square-plus{
+    background-color: #fff;
+    color: black;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.playlist-name{
+    line-height: 2;
+    font-size: 10px;
+}
+
+.account, .download{
+    padding: 10px;
+}
+
+.profile-icon{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.profile-icon > img{
+    width: 20%;
+    border-radius: 100%;
+    background-color: #fff;
+    margin-right: 8px;
+}
+
+hr{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header-button{
+    border-style: none;
+    border: 1px solid white;
+    color: #fff;
+    background-color: black;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+header{
+    height: 100px;
+    background-color: #080b12;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 20px;
+}
+
+.bottom-nav{
+    position: absolute;
+    bottom: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.main-nav > ul, .main-nav li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    text-align: center;
+}
+
+.main-nav{
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.main-playlist .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-playlist .col, .main-playlist > h1{
+    padding: 0px 15px;
+    margin: 20px 0px;
+}
+
+.main-playlist{
+    width: 100%;
+}
+
+.col-dx{
+    width: calc(100% - 160px);
+    background-color: #141922;
+}
